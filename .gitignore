@@ -1,0 +1,23 @@
+# Python cache
+__pycache__
+.pytest_cache
+
+# IDE
+.idea
+.vscode
+
+# Logs
+logs/
+*.log
+
+# Coverage
+htmlcov/
+.coverage
+
+# Other
+mk_eda/libs/verilog/parser.out
+*.old
+*.swp
+
+# venv
+venv/

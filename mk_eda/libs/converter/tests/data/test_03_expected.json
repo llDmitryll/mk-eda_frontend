@@ -1,0 +1,82 @@
+{
+    "function_1": {"inputs": ["x1", "x2"], "outputs": ["0"], "nodes": {}},
+    "function_2": {"inputs": ["x1", "x2"], "outputs": ["f2"], "nodes": {"f2": ["and", "x1", 1, "x2", 1]}},
+    "function_3": {"inputs": ["x1", "x2"], "outputs": ["f3"], "nodes": {"f3": ["and", "x1", 1, "x2", 0]}},
+    "function_4": {
+        "inputs": ["x1", "x2"],
+        "outputs": ["f4"],
+        "nodes": {
+            "y1": ["and", "x1", 0, "x2", 0],
+            "y2": ["and", "x1", 0, "x2", 1],
+            "f4": ["and", "y1", 0, "y2", 0]
+        }
+    },
+    "function_5": {"inputs": ["x1", "x2"], "outputs": ["f5"], "nodes": {"f5": ["and", "x1", 0, "x2", 1]}},
+    "function_6": {
+        "inputs": ["x1", "x2"],
+        "outputs": ["f6"],
+        "nodes": {
+            "y1": ["and", "x1", 0, "x2", 0],
+            "y2": ["and", "x1", 1, "x2", 0],
+            "f6": ["and", "y1", 0, "y2", 0]
+        }
+    },
+    "function_7": {
+        "inputs": ["x1", "x2"],
+        "outputs": ["f7"],
+        "nodes": {
+            "y1": ["and", "x1", 0, "x2", 0],
+            "y2": ["and", "x1", 1, "x2", 1],
+            "f7": ["and", "y1", 0, "y2", 0]
+        }
+    },
+    "function_8": {
+        "inputs": ["x1", "x2"],
+        "outputs": ["f8"],
+        "nodes": {"y1": ["and", "x1", 0, "x2", 0], "f8": ["and", "y1", 0, "y1", 0]}
+    },
+    "function_9": {"inputs": ["x1", "x2"], "outputs": ["f9"], "nodes": {"f9": ["and", "x1", 0, "x2", 0]}},
+    "function_10": {
+        "inputs": ["x1", "x2"],
+        "outputs": ["f10"],
+        "nodes": {
+            "y1": ["and", "x1", 0, "x2", 1],
+            "y2": ["and", "x1", 1, "x2", 0],
+            "f10": ["and", "y1", 0, "y2", 0]
+        }
+    },
+    "function_11": {
+        "inputs": ["x1", "x2"],
+        "outputs": ["f11"],
+        "nodes": {
+            "y1": ["and", "x1", 0, "x2", 1],
+            "y2": ["and", "x1", 1, "x2", 1],
+            "f11": ["and", "y1", 0, "y2", 0]
+        }
+    },
+    "function_12": {
+        "inputs": ["x1", "x2"],
+        "outputs": ["f12"],
+        "nodes": {"y1": ["and", "x1", 0, "x2", 1], "f12": ["and", "y1", 0, "y1", 0]}
+    },
+    "function_13": {
+        "inputs": ["x1", "x2"],
+        "outputs": ["f13"],
+        "nodes": {
+            "y1": ["and", "x1", 1, "x2", 0],
+            "y2": ["and", "x1", 1, "x2", 1],
+            "f13": ["and", "y1", 0, "y2", 0]
+        }
+    },
+    "function_14": {
+        "inputs": ["x1", "x2"],
+        "outputs": ["f14"],
+        "nodes": {"y1": ["and", "x1", 1, "x2", 0], "f14": ["and", "y1", 0, "y1", 0]}
+    },
+    "function_15": {
+        "inputs": ["x1", "x2"],
+        "outputs": ["f15"],
+        "nodes": {"y1": ["and", "x1", 1, "x2", 1], "f15": ["and", "y1", 0, "y1", 0]}
+    },
+    "function_16": {"inputs": ["x1", "x2"], "outputs": ["1"], "nodes": {}}
+}

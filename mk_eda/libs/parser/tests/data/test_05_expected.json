@@ -1,0 +1,32 @@
+{
+    "inputs": [
+        "A",
+        "B"
+    ],
+    "outputs": [
+        "Y1"
+    ],
+    "nodes": {
+        "andGateOut": [
+            "and",
+            "A",
+            1,
+            "B",
+            1
+        ],
+        "orGateOut": [
+            "or",
+            "A",
+            1,
+            "B",
+            1
+        ],
+        "Y1": [
+            "xor",
+            "andGateOut",
+            1,
+            "orGateOut",
+            0
+        ]
+    }
+}

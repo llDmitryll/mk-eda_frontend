@@ -1,0 +1,6 @@
+{"function": "function_0000", "inputs": ["x1", "x2"], "outputs": ["f1"], "nodes": {"y1": ["and", "x1", 0, "x2", 0], "y2": ["and", "x1", 0, "x2", 1], "y3": ["and", "x1", 1, "x2", 0], "y4": ["and", "x1", 1, "x2", 1], "y5": ["and", "y1", 0, "y2", 0], "y6": ["and", "y5", 1, "y3", 0], "f1": ["and", "y6", 1, "y4", 0]}}
+{"function": "function_0001", "inputs": ["x1", "x2"], "outputs": ["f2"], "nodes": {"f2": ["and", "x1", 1, "x2", 1]}}
+{"function": "function_0011", "inputs": ["x1", "x2"], "outputs": ["f3"], "nodes": {"y1": ["and", "x1", 0, "x2", 0], "y2": ["and", "x1", 0, "x2", 1], "f3": ["and", "y1", 0, "y2", 0]}}
+{"function": "function_0110", "inputs": ["x1", "x2"], "outputs": ["f4"], "nodes": {"y1": ["and", "x1", 0, "x2", 0], "y2": ["and", "x1", 1, "x2", 1], "f4": ["and", "y1", 0, "y2", 0]}}
+{"function": "function_0111", "inputs": ["x1", "x2"], "outputs": ["f5"], "nodes": {"y1": ["and", "x1", 0, "x2", 0], "f5": ["and", "y1", 0, "y1", 0]}}
+{"function": "function_1111", "inputs": ["x1", "x2"], "outputs": ["f6"], "nodes": {"y1": ["and", "x1", 0, "x2", 0], "y2": ["and", "x1", 0, "x2", 1], "y3": ["and", "x1", 1, "x2", 0], "y4": ["and", "x1", 1, "x2", 1], "y5": ["and", "y1", 0, "y2", 0], "y6": ["and", "y5", 1, "y3", 0], "y7": ["and", "y6", 1, "y4", 0], "f6": ["and", "y7", 0, "y7", 0]}}

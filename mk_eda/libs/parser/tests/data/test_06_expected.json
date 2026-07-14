@@ -1,0 +1,47 @@
+{
+    "inputs": [
+        "A",
+        "B",
+        "C"
+    ],
+    "outputs": [
+        "Z"
+    ],
+    "nodes": {
+        "andAB": [
+            "and",
+            "A",
+            0,
+            "B",
+            0
+        ],
+        "orBC": [
+            "or",
+            "B",
+            0,
+            "C",
+            0
+        ],
+        "xorAnotC": [
+            "xor",
+            "A",
+            0,
+            "C",
+            1
+        ],
+        "y1": [
+            "and",
+            "andAB",
+            0,
+            "orBC",
+            0
+        ],
+        "Z": [
+            "and",
+            "y1",
+            0,
+            "xorAnotC",
+            0
+        ]
+    }
+}

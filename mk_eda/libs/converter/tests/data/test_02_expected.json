@@ -1,0 +1,6 @@
+{
+    "function_1": {"inputs": ["x1"], "outputs": ["0"], "nodes": {}},
+    "function_2": {"inputs": ["x1"], "outputs": ["x1"], "nodes": {}},
+    "function_3": {"inputs": ["x1"], "outputs": ["f3"], "nodes": {"f3": ["and", "x1", 0, "x1", 0]}},
+    "function_4": {"inputs": ["x1"], "outputs": ["1"], "nodes": {}}
+}
