@@ -1,5 +1,0 @@
-{
-    "inputs": ["x1", "x2"],
-    "outputs": ["x1", "x2"],
-    "nodes": {}
-}
