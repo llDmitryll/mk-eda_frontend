@@ -68,7 +68,7 @@
 1. **Клонируйте репозиторий проекта** (если ещё не сделали этого):
    ```bash
    git clone https://github.com/llDmitryll/mk-eda_frontend.git
-   cd mk-eda
+   cd mk-eda_frontend
    ```
 
 2. **Настройте виртуальное окружение Poetry с Python 3.9**:
